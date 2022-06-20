@@ -9,9 +9,7 @@ export default class OriIndex
     async init()
     {
         var origamicore = new OrigamiTs(config);
-        await origamicore.start([
-            
-        ])   
+        await origamicore.start()   
     }
 }
 

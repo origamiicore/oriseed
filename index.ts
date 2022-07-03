@@ -1,4 +1,4 @@
-import OrigamiTs from 'origamits'  
+import OrigamiCore from 'origamicore'  
 import config from './config'; 
 export default class OriIndex
 {
@@ -8,7 +8,7 @@ export default class OriIndex
     }
     async init()
     {
-        var origamicore = new OrigamiTs(config);
+        var origamicore = new OrigamiCore(config);
         await origamicore.start()   
     }
 }

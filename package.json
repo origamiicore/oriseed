@@ -4,7 +4,7 @@
     "sample": "node ./dist/index.js"
   },
   "dependencies": {
-    "origamits": "^0.3.0",
+    "origamicore": "^3.0.1",
     "typescript": "^4.7.3"
   }
 }
